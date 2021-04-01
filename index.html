@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <button id="show-score">View Highscores</button>
+      <h2 class="time">Time:<span></span></h2>
+    </header>
+
+    <main>
+      <section class="landing-page">
+        <h1 class="heading">Coding Quiz Challenge</h1>
+
+        <p>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds
+        </p>
+
+        <button class="btn" id="start-quiz" type="submit">Start Quiz</button>
+      </section>
+
+      <section class="quiz-page">
+        <h1 id="question"></h1>
+
+        <div id="answers"></div>
+
+        <div id="result"></div>
+      </section>
+
+      <section class="game-over">
+        <h1 id="finish"></h1>
+
+        <p id="score"></p>
+      </section>
+
+      <section class="high-score">
+        <h1 id="highscores"></h1>
+      </section>
+    </main>
+
+    <script src="./Assets/js/script.js"></script>
+  </body>
+</html>
