@@ -54,7 +54,11 @@ li {
     margin: 25px auto auto;
 }
 
+#start-quiz:hover {
 
+background-color:#4C135D;
+
+}
 
 
 /* Main page styles*/
@@ -87,6 +91,11 @@ section h1 {
     margin-bottom: 5px;
 }
 
+.answer-buttons:hover {
+
+    background-color:#4C135D;
+}
+
 #result {
     padding: 20px;
 }
@@ -104,6 +113,11 @@ section h1 {
     margin: 25px auto auto;
 }
 
+.button-submit:hover {
+
+    background-color:#4C135D;
+}
+
 .go-back-button {
     background-color: #7719AA;
     border-radius: 10px;
@@ -113,6 +127,10 @@ section h1 {
     margin: 25px auto auto;
 }
 
+.go-back-button:hover {
+    background-color:#4C135D;
+}
+
 .clear-high-button {
     background-color: #7719AA;
     border-radius: 10px;
@@ -120,4 +138,9 @@ section h1 {
     font-size: 15px;
     padding: 10px 20px;
     margin: 25px auto auto;
+}
+
+.clear-high-button:hover {
+
+    background-color:#4C135D;
 }
